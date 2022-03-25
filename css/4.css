@@ -1,0 +1,32 @@
+.mt-tabpage {
+	width: 96%;
+	margin: 10px auto;
+	padding:12px;
+	box-shadow: 0 0 5px #999;
+	background-color: #FFFFFF;
+}
+ .mt-tabpage-title {
+	height: 44px;
+	font-size: 0;
+	background-color: #fff;
+	width: 96%;
+	margin: auto;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+}
+.mt-tabpage-title .mt-tabpage-item {
+	display: inline-block;
+	width:32%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "楷体";
+}
+.mt-tabpage-title .mt-tabpage-item-cur {
+	color: #eb4537;
+	font-size: 24px;
+	font-weight:bold;
+	border-bottom: 1px solid #F85B5E;
+}
